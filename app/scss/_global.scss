@@ -29,6 +29,7 @@ h6 {
   margin: 0;
   font-family: inherit;
   font-weight: inherit;
+  color: inherit;
 }
 
 a,
@@ -137,3 +138,9 @@ button {
   visibility: hidden;
   opacity: 0;
 } /* ibg */
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}

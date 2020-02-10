@@ -1,1 +1,4 @@
 app/scss/_libs.scss
+app/scss/_media.scss
+app/scss/_fonts.scss
+app/css/style.scss

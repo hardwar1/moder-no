@@ -1,6 +1,6 @@
 $(function () {
   //весь код писать внутри что бы дом загрузился первым
-
+  
 
   $('.header__burger').on('click', function () {
     $('.header__nav-inner').slideToggle();
@@ -17,5 +17,6 @@ $(function () {
   
   ibg();
   // ibg
-
+  
+  var mixer = mixitup('.products__body');
 });

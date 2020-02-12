@@ -1,0 +1,43 @@
+.author {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  max-height: 752px;
+  background-image: url(../images/home/content/author-bg.jpg);
+
+  &__block {
+    position: absolute;
+    top: 245px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 655px;
+    min-height: 216px;
+    padding: 0 60px;
+    background-color: $bg-green;
+    transform: translateX(-50%);
+  }
+
+  &__text {
+    max-width: 275px;
+    margin-right: 35px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    text-align: left;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    max-width: 227px;
+    padding: 19px;
+    font-size: 18px;
+    color: $c-black;
+  }
+}

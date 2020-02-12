@@ -4,9 +4,10 @@ let gulp = require('gulp'),
   concat = require('gulp-concat'),
   uglify = require('gulp-uglify'),
   del = require('del'),
-  autoprefixer = require('gulp-autoprefixer');
+  autoprefixer = require('gulp-autoprefixer'),
+  babel = require('gulp-babel');
 const gulpStylelint = require('gulp-stylelint');
-const babel = require('gulp-babel');
+const fileinclude = require('gulp-file-include');
 
 gulp.task('clean', async function () {
   del.sync('dist')
@@ -14,6 +15,10 @@ gulp.task('clean', async function () {
 
 gulp.task('scss', function () {
   return gulp.src('app/scss/**/*.scss')
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
     .pipe(autoprefixer({
       overrideBrowserslist: ['last 8 versions']
     }))
@@ -46,7 +51,8 @@ gulp.task('css', function () {
   return gulp.src([
     'node_modules/normalize.css/normalize.css',
     'node_modules/slick-carousel/slick/slick.css',
-    'node_modules/magnific-popup/dist/magnific-popup.css'
+    'node_modules/magnific-popup/dist/magnific-popup.css',
+    'node_modules/rateyo/src/jquery.rateyo.css'
   ])
     .pipe(concat('_libs.scss'))
     .pipe(gulp.dest('app/scss'))
@@ -68,7 +74,8 @@ gulp.task('js', function () {
   return gulp.src([
     'node_modules/slick-carousel/slick/slick.js',
     'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
-    'node_modules/mixitup/dist/mixitup.js'
+    'node_modules/mixitup/dist/mixitup.js',
+    'node_modules/rateyo/src/jquery.rateyo.js'
   ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

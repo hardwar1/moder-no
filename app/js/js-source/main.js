@@ -1,6 +1,7 @@
 $(function () {
   //весь код писать внутри что бы дом загрузился первым
-  
+
+  var mixer = mixitup('.products__body');
 
   $('.header__burger').on('click', function () {
     $('.header__nav-inner').slideToggle();
@@ -17,6 +18,20 @@ $(function () {
   
   ibg();
   // ibg
-  
-  var mixer = mixitup('.products__body');
+
+
+
+  $(".rate-star").rateYo({
+    rating: 4.4,
+    starWidth: "12px",
+    readOnly: true
+  });
+
+  $('.trend__slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    dots: true,
+    arrows: false
+  });
+
 });

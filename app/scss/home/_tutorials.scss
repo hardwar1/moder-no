@@ -1,5 +1,5 @@
 .tutorials {
-  margin-bottom: 120px;
+  margin: 60px 0 120px;
 
   &__title {
     margin-bottom: 50px;
@@ -15,6 +15,10 @@
     max-width: 370px;
   }
 
+  &__item + &__item {
+    margin-left: 30px;
+  }
+
   &__img {
     height: 100%;
     max-height: 270px;
@@ -28,5 +32,4 @@
     min-height: 100px;
     background-color: #f8f8f8;
   }
-
 }

@@ -10,11 +10,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?dv87if');
-  src:  url('../fonts/icomoon.eot?dv87if#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?dv87if') format('truetype'),
-    url('../fonts/icomoon.woff?dv87if') format('woff'),
-    url('../ fonts/icomoon.svg?dv87if#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?rpoge7');
+  src:  url('../fonts/icomoon.eot?rpoge7#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rpoge7') format('truetype'),
+    url('../fonts/icomoon.woff?rpoge7') format('woff'),
+    url('../fonts/icomoon.svg?rpoge7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -41,6 +41,9 @@
 .icon-shopping-cart:before {
   content: "\f07a";
 }
+.icon-phone:before {
+  content: "\f095";
+}
 .icon-bolt:before {
   content: "\f0e7";
 }
@@ -53,3 +56,5 @@
 .icon-location-arrow:before {
   content: "\f124";
 }
+
+

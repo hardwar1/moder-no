@@ -11,10 +11,13 @@
 @@include('./_item.scss');
 
 /* куски страниц sections */
+/* куски страницы home */
 @@include('./_header.scss');
-@@include('./_search.scss');
-@@include('./_products.scss');
-@@include('./_trend.scss');
-@@include('./_advantages.scss');
-@@include('./_author.scss');
-@@include('./_tutorials.scss');
+@@include('./home/_search.scss');
+@@include('./home/_products.scss');
+@@include('./home/_trend.scss');
+@@include('./home/_advantages.scss');
+@@include('./home/_author.scss');
+@@include('./home/_tutorials.scss');
+@@include('./_footer.scss');
+

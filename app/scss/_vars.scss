@@ -3,6 +3,10 @@ $f-bold: "Raleway";
 $f-600: "Lato-Semibold";
 $f-sub: sans-serif;
 
+@mixin lato-sb {
+  font-family: $f-600, $f-sub;
+}
+
 $c-blue: #546e7a;
 $c-black: #263238;
 $c-red: #e74c3c;

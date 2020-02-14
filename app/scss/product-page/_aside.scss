@@ -16,18 +16,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
   }
 }
 
 .aside {
   width: 270px;
+  margin-bottom: 109px;
   color: $c-black;
   text-align: left;
-  margin-bottom: 109px;
 
   &__item {
     width: 100%;
     padding: 7px 30px 0;
+    margin-bottom: 30px;
     background-color: #fff;
     border: 1px solid #d8d8d8;
   }
@@ -79,9 +81,9 @@
           position: absolute;
           bottom: 0;
           left: -21px;
-          font-family: 'icomoon';
+          font-family: "icomoon";
           font-size: 15px;
-          content: '\f002';
+          content: "\f002";
           transform: translateY(-3px);
         }
       }
@@ -117,7 +119,7 @@
   background-color: transparent;
 }
 
-.irs--flat .irs-handle>i:first-child,
+.irs--flat .irs-handle > i:first-child,
 .irs--flat .irs-from:before,
 .irs--flat .irs-to:before,
 .irs--flat .irs-single:before,

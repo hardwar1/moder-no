@@ -54,15 +54,14 @@
     line-height: 24px;
     @include lato-sb;
 
-
     &::before {
       position: absolute;
       top: 0;
       left: 0;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       font-size: 18px;
       color: $c-green;
-      content: '\f041';
+      content: "\f041";
     }
   }
 
@@ -75,10 +74,10 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       font-size: 18px;
       color: $c-green;
-      content: '\f095';
+      content: "\f095";
     }
   }
 
@@ -91,17 +90,6 @@
   &__menu-item {
     position: relative;
     padding-left: 20px;
-
-    &::before {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      font-family: "icomoon";
-      font-size: 18px;
-      color: $c-green;
-      content: "\f105";
-      transform: translateY(-50%);
-    }
   }
 
   &__link {
@@ -152,10 +140,10 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       font-size: 18px;
       color: #fff;
-      content: '\f124';
+      content: "\f124";
       transform: translate(-50%, -50%);
     }
   }
@@ -178,25 +166,25 @@
   display: inline-block;
   width: 28px;
   height: 28px;
-  background-image: url('../images/footer-soc.png');
+  background-image: url("../images/footer-soc.png");
 
   &--facebook {
-    background: url('../images/footer-soc.png') -0 -28px;
+    background: url("../images/footer-soc.png") -0 -28px;
   }
 
   &--twitter {
-    background: url('../images/footer-soc.png') -28px -0;
+    background: url("../images/footer-soc.png") -28px -0;
   }
 
   &--youtube {
-    background: url('../images/footer-soc.png') -28px -28px;
+    background: url("../images/footer-soc.png") -28px -28px;
   }
 
   &--pinterest {
-    background: url('../images/footer-soc.png') -56px -0;
+    background: url("../images/footer-soc.png") -56px -0;
   }
 
   &--linledin {
-    background: url('../images/footer-soc.png') -0 -0;
+    background: url("../images/footer-soc.png") -0 -0;
   }
 }

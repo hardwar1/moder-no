@@ -1,0 +1,46 @@
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+  padding: 0 20px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  &__sort-by {
+    position: relative;
+    color: #707070;
+  }
+
+  &__right-bar {
+    font-size: 16px;
+  }
+}
+
+.icon-sort-amount-desc {
+  font-size: 14px;
+  color: #455a64;
+}
+
+.icon-unsorted {
+  position: absolute;
+  top: 50%;
+  right: -14px;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+
+.icon-th-large.active {
+  color: $c-green;
+}
+
+.icon-th-large,
+.icon-th-list {
+  color: #90a4ae;
+}

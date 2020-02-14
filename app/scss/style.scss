@@ -21,3 +21,8 @@
 @@include('./home/_tutorials.scss');
 @@include('./_footer.scss');
 
+
+/* куски страницы product-page */
+@@include('./_breadcrumbs.scss');
+@@include('./product-page/_aside.scss');
+@@include('./product-page/_sort.scss');

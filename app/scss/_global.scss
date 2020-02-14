@@ -1,7 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
@@ -55,6 +64,24 @@ button {
   @media (max-width: 720px) {
     padding: 0 15px;
   }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+
+  &--bg {
+    background-color: #f4f6f5;
+  }
+}
+
+.footer {
+  flex: 0 0 auto;
 }
 
 /* burger */
@@ -144,4 +171,19 @@ button {
   font-weight: 700;
   line-height: 60px;
   color: $c-black;
+}
+
+.menu-arrow {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-family: "icomoon";
+    font-size: 18px;
+    color: $c-green;
+    content: "\f105";
+    transform: translateY(-50%);
+  }
 }

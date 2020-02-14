@@ -1,7 +1,11 @@
 $(function () {
-  //весь код писать внутри что бы дом загрузился первым
 
-  var mixer = mixitup('.products__body');
+  var mixer = document.querySelector(".products__body");
+    if (mixer) {
+      mixer = mixitup('.products__body');
+    };
+
+
 
   $('.header__burger').on('click', function () {
     $('.header__nav-inner').slideToggle();
@@ -19,8 +23,6 @@ $(function () {
   ibg();
   // ibg
 
-
-
   $(".rate-star").rateYo({
     rating: 4.4,
     starWidth: "12px",
@@ -33,5 +35,15 @@ $(function () {
     dots: true,
     arrows: false
   });
+
+  $(".aside__range").ionRangeSlider({
+    type: "double",
+    min: 0,
+    max: 1200,
+    from: 0,
+    to: 600,
+    prefix: "$"
+});
+
 
 });

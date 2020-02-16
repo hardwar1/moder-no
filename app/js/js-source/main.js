@@ -1,15 +1,22 @@
 $(function () {
 
-  var mixer = document.querySelector(".products__body");
-  if (mixer) {
-    mixer = mixitup('.products__body');
+  if ($(".products__body").length) {
+    var mixer = mixitup('.products__body');
   };
-
-
 
   $('.header__burger').on('click', function () {
     $('.header__nav-inner').slideToggle();
     $(this).toggleClass('burger__opened');
+  });
+
+  $('.log-menu__btn.icon-envelope-o').on('click', function () {
+    $('.log-menu__message').slideToggle();
+    $(this).toggleClass('active');
+  });
+
+  $('.log-menu__btn.icon-bell-o').on('click', function () {
+    $('.log-menu__notification').slideToggle();
+    $(this).toggleClass('active');
   });
 
   $('.profile__btn-body').on('click', function () {
@@ -80,5 +87,5 @@ $(function () {
     $(".logout").toggleClass('logged');
   });
 
-  
+
 });

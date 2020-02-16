@@ -187,3 +187,33 @@ button {
     transform: translateY(-50%);
   }
 }
+
+/* pagination */
+.pagination {
+  &__list {
+    li {
+      display: inline-block;
+    }
+
+    li + li {
+      margin-left: 8px;
+    }
+  }
+
+  a,
+  span {
+    display: inline-block;
+    width: 43px;
+    height: 39px;
+    padding: 11px 3px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #37474f;
+    border-bottom: 1px solid #d9e0e3;
+  }
+}
+
+.pagination .active {
+  color: #fff;
+  background-color: $bg-red;
+} /* pagination */

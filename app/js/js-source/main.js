@@ -45,5 +45,17 @@ $(function () {
     prefix: "$"
 });
 
+$('.icon-th-large').on('click', function () {
+  $('.item--pp').removeClass('item--col');
+  $(this).addClass('active');
+  $('.icon-th-list').removeClass('active');
+});
+
+$('.icon-th-list').on('click', function () {
+  $('.item--pp').addClass('item--col');
+  $(this).addClass('active');
+  $('.icon-th-large').removeClass('active');
+});
+
 
 });

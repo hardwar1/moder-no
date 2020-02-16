@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 60px;
   padding: 0 20px;
-  background-color: #fff;
+  margin-bottom: 30px;
   border: 1px solid #dcdcdc;
 
   button {
@@ -20,6 +20,10 @@
 
   &__right-bar {
     font-size: 16px;
+
+    .active {
+      color: $c-green;
+    }
   }
 }
 
@@ -34,10 +38,6 @@
   right: -14px;
   font-size: 18px;
   transform: translateY(-50%);
-}
-
-.icon-th-large.active {
-  color: $c-green;
 }
 
 .icon-th-large,

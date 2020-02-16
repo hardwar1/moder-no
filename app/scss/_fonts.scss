@@ -35,6 +35,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .icon-search:before {
   content: "\f002";
 }
@@ -106,6 +107,9 @@
 }
 .icon-angle-right:before {
   content: "\f105";
+}
+.icon-angle-down:before {
+  content: "\f107";
 }
 .icon-meh-o:before {
   content: "\f11a";

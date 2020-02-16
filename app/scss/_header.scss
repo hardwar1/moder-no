@@ -31,11 +31,17 @@
     }
   }
 
+  &__profile {
+    height: 100%;
+    margin-right: 56px;
+  }
+
   &__btn {
     min-width: 72px;
     padding: 4px 14px;
     font-size: 12px;
     line-height: 24px;
+    color: #fff;
     border: 0;
     border-radius: 3px;
   }
@@ -46,6 +52,10 @@
 
   &__reg {
     margin-left: 7px;
+    background-color: $bg-red;
+  }
+
+  &__logout {
     background-color: $bg-red;
   }
 } /* header-top */
@@ -68,3 +78,130 @@
     line-height: 30px;
   }
 } /* header-menu menu */
+
+.log-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  .logged {
+    display: block;
+  }
+
+  &__item {
+    width: 50px;
+    text-align: left;
+  }
+
+  &__btn {
+    position: relative;
+    font-size: 14px;
+    color: #a0a0a0;
+    background-color: transparent;
+    border: 0;
+  }
+
+  &__value {
+    position: absolute;
+    bottom: 88%;
+    left: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    line-height: 0;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.4s;
+
+    &.active {
+      background-color: $c-black;
+    }
+
+    &--y {
+      background-color: #fcb322;
+    }
+
+    &--r {
+      background-color: #ef6c00;
+    }
+
+    &--g {
+      background-color: #95c85a;
+    }
+  }
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 91px;
+
+  &__btn-body {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: 0;
+  }
+
+  &__avatar {
+    width: 34px;
+    margin-right: 15px;
+    border-right: 50%;
+  }
+
+  &__name-wrapper {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__name {
+    position: relative;
+    color: #222;
+    text-align: left;
+
+    &::after {
+      position: absolute;
+      top: 1px;
+      right: -15px;
+      font-family: "icomoon";
+      content: "\f107";
+    }
+  }
+
+  &__cash {
+    color: #8bc34a;
+  }
+
+  &__list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 50;
+    display: none;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0 16px 20px 0 rgba(216, 216, 216, 0.75);
+  }
+
+  &__link {
+    min-width: 158px;
+    min-height: 39px;
+    padding: 0 10px 0 34px;
+    font-size: 12px;
+    line-height: 39px;
+    color: #546e7a;
+    text-align-last: left;
+    background-color: #fff;
+  }
+
+  &__link.menu-arrow::before {
+    left: 19px;
+  }
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700|Roboto:400,500,700&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700|Open+Sans:600|Roboto:400,500,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/heart-broken.ico" type="image/x-icon">
@@ -23,9 +23,49 @@
             Talk to an expert:
             <a href="tel:  +61383766284" class="header-top__tel"> +61 3 8376 6284</a>
           </div>
-          <a class="header__basket bascet" href="#"></a>
+          <div class="header-top__log-menu log-menu">
+            <div class="log-menu__item logout">
+              <button class="log-menu__btn icon-bell-o">
+                <div class="log-menu__value log-menu__value--y">3</div>
+              </button>
+            </div>
+            <div class="log-menu__item logout">
+              <button class="log-menu__btn icon-envelope-o">
+                <div class="log-menu__value log-menu__value--r">5</div>
+              </button>
+            </div>
+            <div class="log-menu__item">
+              <button class="log-menu__btn icon-shopping-cart">
+                <div class="log-menu__value log-menu__value--g">8</div>
+              </button>
+            </div>
+          </div>
+
+          <div class="header-top__profile logout">
+            <div class="profile">
+              <button class="profile__btn-body">
+                <img class="profile__avatar" src="images/home/content/item-avatar.jpg" alt="avatar">
+                <div class="profile__name-wrapper">
+                  <div class="profile__name">Mike Hussy
+                    <div class="profile__cash">$171.00</div>
+                  </div>
+                </div>
+              </button>
+              <ul class="profile__list">
+                <li class="profile__link menu-arrow"><a href="#">Profile Page</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Portfolio</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Account Setting</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Downloads</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Wishlist</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Upload Item</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Statement</a></li>
+                <li class="profile__link menu-arrow"><a href="#">Withdraws</a></li>
+              </ul>
+            </div>
+          </div>
           <button class="header-top__btn header-top__log">Login</button>
           <button class="header-top__btn header-top__reg">Register</button>
+          <button class="header-top__btn header-top__logout logout">Logout</button>
         </div>
       </div>
     </div> <!-- header-top -->
@@ -829,21 +869,21 @@
         <div class="footer__item footer__item--menu">
           <h5 class="footer__item-title">Join Our Community</h5>
           <ul class="footer__menu">
-            <li class="footer__menu-item"><a href="#" class="footer__link">Home</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Forums</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Become an Author</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Community Meetups</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Become an Affiliate</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Home</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Forums</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Author</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Community Meetups</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Affiliate</a></li>
           </ul>
         </div> <!-- footer__item footer__item--menu -->
         <div class="footer__item footer__item--menu">
           <h5 class="footer__item-title">Need Help?</h5>
           <ul class="footer__menu ">
-            <li class="footer__menu-item"><a href="#" class="footer__link">Help Center</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Author Terms</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Foxtar Licenses</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__link">Contact Us</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Help Center</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Author Terms</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Licenses</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Contact Us</a></li>
           </ul>
         </div> <!-- footer__item footer__item--menu -->
         <div class="footer__item">
@@ -865,7 +905,7 @@
       <div class="footer__copy">
         <p class="footer__copy-text">© 2017 Foxtar market place. Trademarks and brands are the property of their
           respective owners.</p>
-      </div> 
+      </div>
     </div>
   </footer> <!-- footer -->
 
@@ -873,4 +913,5 @@
   <script src="js/libs.min.js"></script>
   <script src="js/main.min.js"></script>
 </body>
+
 </html>

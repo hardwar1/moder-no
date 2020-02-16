@@ -57,5 +57,9 @@ $('.icon-th-list').on('click', function () {
   $('.icon-th-large').removeClass('active');
 });
 
+$('.sort__rise').on('click', function () {
+  $(this).toggleClass('icon-sort-amount-desc');
+  $(this).toggleClass('icon-sort-amount-asc');
+});
 
 });

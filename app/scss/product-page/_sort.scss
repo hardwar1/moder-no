@@ -11,7 +11,9 @@
   button {
     background-color: transparent;
     border: none;
+    line-height: 35px;
   }
+
 
   &__sort-by {
     position: relative;
@@ -27,7 +29,8 @@
   }
 }
 
-.icon-sort-amount-desc {
+.icon-sort-amount-desc,
+.icon-sort-amount-asc {
   font-size: 14px;
   color: #455a64;
 }

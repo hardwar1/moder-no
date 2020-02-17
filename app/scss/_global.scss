@@ -67,11 +67,11 @@ button {
 }
 
 .logout {
-  display: none;
+  display: none !important;
 }
 
 .logged {
-  display: block;
+  display: block !important;
 }
 
 .wrapper {

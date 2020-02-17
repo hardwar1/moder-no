@@ -9,21 +9,6 @@ $(function () {
     $(this).toggleClass('burger__opened');
   });
 
-  $('.log-menu__btn.icon-envelope-o').on('click', function () {
-    $('.log-menu__message').slideToggle();
-    $(this).toggleClass('active');
-  });
-
-  $('.log-menu__btn.icon-bell-o').on('click', function () {
-    $('.log-menu__notification').slideToggle();
-    $(this).toggleClass('active');
-  });
-
-  $('.profile__btn-body').on('click', function () {
-    $('.profile__list').slideToggle();
-    $(this).toggleClass('active');
-  });
-
   //ibg
   function ibg() {
     document.querySelectorAll(".ibg").forEach(el => {

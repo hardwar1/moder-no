@@ -333,9 +333,10 @@
   }
 
   &__avatar {
+    display: inline-block;
     width: 34px;
     margin-right: 15px;
-    border-right: 50%;
+    border-radius: 50%;
   }
 
   &__name-wrapper {

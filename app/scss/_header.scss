@@ -64,6 +64,11 @@
   color: #fff;
   background-color: $bg-blue;
 
+  &__body {
+    position: relative;
+    min-height: 60px;
+  }
+
   &__wrapper {
     display: flex;
     align-items: center;
@@ -141,6 +146,7 @@
 
     .drop-down {
       top: 91px;
+      z-index: 15;
       width: 0;
       overflow: hidden;
       border: 0;

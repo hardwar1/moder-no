@@ -4,8 +4,8 @@ $(function () {
     var mixer = mixitup('.products__body');
   };
 
-  $('.header__burger').on('click', function () {
-    $('.header__nav-inner').slideToggle();
+  $('.burger').on('click', function () {
+    $('.menu').slideToggle();
     $(this).toggleClass('burger__opened');
   });
 

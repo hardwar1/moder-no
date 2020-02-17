@@ -141,6 +141,7 @@
 
     .drop-down {
       top: 91px;
+      width: 0;
       overflow: hidden;
       opacity: 0;
       transition: all 1s;
@@ -153,6 +154,7 @@
       }
 
       .drop-down {
+        width: 270px;
         opacity: 1;
         transform: translateX(0);
       }

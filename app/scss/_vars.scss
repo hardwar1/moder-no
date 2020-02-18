@@ -2,6 +2,7 @@ $f-base: "Roboto";
 $f-bold: "Raleway";
 $f-600: "Lato-Semibold";
 $f-sub: sans-serif;
+$f-sans: 'Open Sans';
 
 @mixin lato-sb {
   font-family: $f-600, $f-sub;

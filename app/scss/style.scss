@@ -10,22 +10,30 @@
 @@include('./_global.scss');
 @@include('./_item.scss');
 
+
 /* куски страниц sections */
-/* куски страницы home */
+/* куски header и popap*/
+@@include('./popap/_drop-down.scss');
+@@include('./popap/_popap-login.scss');
 @@include('./_header.scss');
+/* куски страницы home */
 @@include('./home/_search.scss');
 @@include('./home/_products.scss');
 @@include('./home/_trend.scss');
 @@include('./home/_advantages.scss');
 @@include('./home/_author.scss');
 @@include('./home/_tutorials.scss');
-@@include('./_footer.scss');
 
+/* footer */
+@@include('./_footer.scss');
 
 /* куски страницы product-page */
 @@include('./_breadcrumbs.scss');
 @@include('./product-page/_aside.scss');
 @@include('./product-page/_sort.scss');
+
+/* куски страницы 404.html */
+@@include('./404/_page404.scss');
 
 
 

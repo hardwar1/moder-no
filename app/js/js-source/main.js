@@ -60,7 +60,7 @@ $(function () {
     $(this).toggleClass('icon-sort-amount-asc');
   });
 
-  $('.header-top__log').on('click', function () {
+  $('.popap-login__submit').on('click', function () {
     $(".header-top__log").slideToggle();
     $(".header-top__reg").slideToggle();
     $(".logout").toggleClass('logged');
@@ -70,6 +70,21 @@ $(function () {
     $(".header-top__log").slideToggle();
     $(".header-top__reg").slideToggle();
     $(".logout").toggleClass('logged');
+  });
+
+  $('.header-top__log').on('click', function () {
+    $('.popap-login').toggleClass('on');
+    $('.popap-login').toggleClass('off');
+  });
+
+  $('.popap-login__close').on('click', function () {
+    $('.popap-login').toggleClass('on');
+    $('.popap-login').toggleClass('off');
+  });
+
+  $('.popap-login__submit').on('click', function () {
+    $('.popap-login').toggleClass('on');
+    $('.popap-login').toggleClass('off');
   });
 
 

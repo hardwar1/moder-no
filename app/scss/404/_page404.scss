@@ -1,0 +1,67 @@
+.page404 {
+  &__body {
+    padding: 20px 0 0;
+    margin-bottom: 150px;
+    color: #fff;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(215, 215, 215);
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #444;
+    text-align: left;
+  }
+
+  &__inner {
+    position: relative;
+    min-height: 712px;
+    padding: 110px 0 100px;
+    background-color: $bg-green;
+    border-top: 1px solid rgb(215, 215, 215);
+  }
+
+  &__title404 {
+    margin-bottom: 50px;
+    font-family: $f-sans, $f-sub;
+    font-size: 300px;
+    font-weight: 800;
+    line-height: 300px;
+  }
+
+  &__not-found {
+    margin-bottom: 30px;
+    font-family: $f-sans;
+    font-size: 30px;
+    letter-spacing: 5.2px;
+  }
+
+  &__text {
+    max-width: 535px;
+    margin: 0 auto 53px;
+    font-family: $f-bold, $f-sub;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  &__btn-home {
+    min-width: 210px;
+    padding: 20px;
+    font-family: $f-bold, $f-sub;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 3px;
+  }
+
+  &__img-man {
+    position: absolute;
+    top: 103px;
+    right: 151px;
+  }
+}

@@ -21,7 +21,6 @@
 @@include('./home/_advantages.scss');
 @@include('./home/_author.scss');
 @@include('./home/_tutorials.scss');
-
 /* footer */
 @@include('./_footer.scss');
 
@@ -31,7 +30,6 @@
 @@include('./product-page/_aside.scss');
 @@include('./product-page/_sort.scss');
 
-
 /* куски страницы 404.html */
 @@include('./404/_page404.scss');
 /* куски страницы product-details pd*/
@@ -40,7 +38,8 @@
 @@include('./about/_about.scss');
 /* куски страницы contact*/
 @@include('./contact/_contact.scss');
-
+/* куски страницы profile-details pd*/
+@@include('./profile-details/_profile-details.scss');
 
 
 /* адаптив */

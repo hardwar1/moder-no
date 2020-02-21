@@ -1,0 +1,58 @@
+.banner {
+  &__wrapper {
+    padding: 18px 19px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+  }
+
+  &__img {
+    padding-bottom: 41.2%;
+  }
+}
+
+.profile-bar {
+  display: flex;
+  margin-bottom: 30px;
+
+  &__item {
+    width: 25%;
+    height: 80px;
+    padding: 15px 0 0 0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+
+    & + & {
+      border-left: 0;
+    }
+  }
+
+  &__title,
+  &__content {
+    font-weight: 500;
+    color: $c-black;
+  }
+
+  &__content {
+    color: #707070;
+  }
+
+  &__cash {
+    font-weight: 500;
+    color: #000;
+  }
+
+  .item__rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .rate-star {
+    padding-bottom: 1px;
+  }
+}

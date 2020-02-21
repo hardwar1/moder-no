@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link
-    href="https://fonts.googleapis.com/css?family=Lato|Raleway:500,700|Open+Sans:600,800|Roboto:400,500,700&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700|Roboto:400,500,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/heart-broken.ico" type="image/x-icon">
@@ -180,6 +179,7 @@
           </div>
         </div> <!-- header-menu -->
       </header> <!-- header -->
+      <!-- pp - product page -->
       <section class="search search--pp" style="background-image: url('images/home/search-bg.jpg');">
         <div class="container">
           <div class="search__inner">
@@ -199,53 +199,77 @@
           <div class="breadcrumbs__body">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__list-item"><a href="#">Home</a></li>
-              <li class="breadcrumbs__list-item"><a href="#">Contact US</a></li>
+              <li class="breadcrumbs__list-item"><a href="#">Profile details</a></li>
             </ul>
           </div>
         </div>
       </div> <!-- breadcrumbs -->
-      <section class="about contact">
+      <div class="pp">
         <div class="container">
-          <div class="about__body">
-            <h1 class="about__title">To Know Who We Are</h1>
-            <div class="contact__content">
-              <div class="contact__map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10160.893856063201!2d30.546632361069417!3d50.45556332109133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce341bbda1f3%3A0xde6f9ec15be0c8f3!2sSANDALI%20Truhanov%20Resort!5e0!3m2!1sru!2sru!4v1582293584349!5m2!1sru!2sru"
-                  frameborder="0" style="border: 0;" allowfullscreen=""></iframe>
-              </div>
-              <div class="contact__info">
-                <div class="contact__contacts">
-                  <div class="contact__item">
-                    <div class="contact__item-title icon-map-marker">Our Office Address</div>
-                    <address class="contact__text">PO Box 16122 Collins Street West
-                      Victoria 8007 Australia</address>
-                  </div>
-                  <div class="contact__item ">
-                    <div class="contact__item-title icon-phone">Phone</div>
-                    <a class="contact__text" href="tel:+61383766284">+61 3 8376 6284</a>
-                  </div>
-                  <div class="contact__item">
-                    <div class="contact__item-title icon-phone">E-mail</div>
-                    <a class="contact__text" href="mailto:info@foxtar.com">info@foxtar.com</a>
+          <div class="pp__body">
+            <aside class="pp__aside aside">
+              <div class="aside__item">
+                <h4 class="aside__item-title">About Author</h4>
+                <div class="aside__profile">
+                  <img class="aside__avatar" src="images/product-details/avatar.jpg" alt="avatar author">
+                  <div class="">
+                    <div class="aside__name">PsdBoss</div>
+                    <div class="aside__status online">Online</div>
                   </div>
                 </div>
-                <form action="#" class="contact__form">
-                  <h4 class="contact__form-title">Drop Us A Message</h4>
-                  <div class="contact__input-wrapper">
-                    <input type="text" placeholder="Name*">
-                    <input type="email" placeholder="E-mail*">
+                <ul class="aside__ico-list">
+                  <li class="aside__ico-item icon-meh-o"><a href="#"><img src="images/product-details/bg__ico1.png"
+                        alt="icon bacground"></a></li>
+                  <li class="aside__ico-item icon-pagelines"><a href="#"><img src="images/product-details/bg__ico2.png"
+                        alt="icon bacground"></a></li>
+                  <li class="aside__ico-item icon-flash"><a href="#"><img src="images/product-details/bg__ico3.png"
+                        alt="icon bacground"></a></li>
+                  <li class="aside__ico-item icon-foursquare"><a href="#"><img src="images/product-details/bg__ico4.png"
+                        alt="icon bacground"></a></li>
+                  <li class="aside__ico-item icon-cny"><a href="#"><img src="images/product-details/bg__ico5.png"
+                        alt="icon bacground"></a></li>
+                </ul>
+              </div>
+              <div class="footer__social">
+                <a class="link link--facebook" href="#"></a>
+                <a class="link link--twitter" href="#"></a>
+                <a class="link link--youtube" href="#"></a>
+                <a class="link link--linledin" href="#"></a>
+              </div>
+              <button class="aside__btn aside__btn--send">Send Message</button>
+              <button class="aside__btn">Following</button>
+            </aside>
+            <div class="pp__inner">
+              <div class="banner__wrapper">
+                <div class="banner__img ibg">
+                  <img src="./images/profile-details/1.jpg" alt="banner">
+                </div>
+              </div>
+              <div class="profile-bar">
+                <div class="profile-bar__item">
+                  <div class="profile-bar__title">Country:</div>
+                  <div class="profile-bar__content">England</div>
+                </div>
+                <div class="profile-bar__item">
+                  <div class="profile-bar__title">Member Since:</div>
+                  <div class="profile-bar__content">December 26, 2014</div>
+                </div>
+                <div class="profile-bar__item">
+                  <div class="profile-bar__title">Author Rating:</div>
+                  <div class="item__rating">
+                    <div class="rate-star"></div>
+                    <div class="rate-number">( <span> 05 </span> )</div>
                   </div>
-                  <textarea placeholder="Message*"></textarea>
-                  <button type="submit">Send message</button>
-                </form>
+                </div>
+                <div class="profile-bar__item">
+                  <div class="profile-bar__title">Total Sales:</div>
+                  <div class="profile-bar__cash">$ 5,030</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section> <!-- contact -->
 
-
+          
       <section class="popap-login off">
         <div class="popap-login__body">
           <div class="popap-login__inner">

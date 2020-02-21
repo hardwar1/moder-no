@@ -87,5 +87,15 @@ $(function () {
     $('.popap-login').toggleClass('off');
   });
 
+  $('.tabs1__wrapper .tabs1__title').on('click', function(event) {
+    var id = $(this).attr('data-id');
+      $('.tabs1__wrapper').find('.tabs1__item').removeClass('active-tab1').hide();
+      $('.tabs1__wrapper .tabs1').find('.tabs1__title').removeClass('active1');
+      $(this).addClass('active1');
+      $('#'+id).addClass('active-tab1').fadeIn();
+      return false;
+    });
+    
+
 
 });

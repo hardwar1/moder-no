@@ -13,6 +13,7 @@
 @@include('./popap/_drop-down.scss');
 @@include('./popap/_popap-login.scss');
 @@include('./_header.scss');
+
 /* куски страницы home */
 @@include('./home/_search.scss');
 @@include('./home/_products.scss');
@@ -26,12 +27,17 @@
 
 /* куски страницы product-page */
 @@include('./_breadcrumbs.scss');
+@@include('./product-page/_pp.scss');
 @@include('./product-page/_aside.scss');
 @@include('./product-page/_sort.scss');
 
+
 /* куски страницы 404.html */
 @@include('./404/_page404.scss');
+/* куски страницы product-details pd*/
+@@include('./product-details/_pd.scss');
+
+
 
 /* адаптив */
 @@include('./_media.scss');
-

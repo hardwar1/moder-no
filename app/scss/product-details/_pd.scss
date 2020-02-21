@@ -1,0 +1,251 @@
+.pd {
+  padding-bottom: 50px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 869px;
+  }
+
+  &__aside {
+    margin-left: 30px;
+  }
+
+  &__img-box {
+    padding: 20px;
+    margin-bottom: 35px;
+    border: 1px solid #dedede;
+  }
+
+  &__img-wrapper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 51%;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    color: $c-black;
+    text-align: left;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    text-align: left;
+  }
+
+  &__link-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 54px;
+    text-align: left;
+
+    a {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+
+  &__link {
+    width: 160px;
+    height: 50px;
+    padding: 16px 10px 13px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(244, 246, 245);
+    background-color: $bg-red;
+
+    &--grey {
+      background-color: #455a64;
+    }
+
+    &--green {
+      background-color: $bg-green;
+    }
+  }
+
+  &__soc-link {
+    position: relative;
+    width: 54px;
+    height: 50px;
+    margin-right: 3px;
+    margin-left: auto;
+    background-color: #6370b6;
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 18px;
+      color: #fff;
+      transform: translate(-50%, -50%);
+    }
+
+    &.icon-twitter {
+      background-color: #64b5f6;
+    }
+
+    &.icon-linkedin {
+      background-color: #4f71ce;
+    }
+
+    &.icon-pinterest-p {
+      background-color: #d32f2f;
+    }
+  }
+}
+
+.tabs1 {
+  margin-bottom: 30px;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  button {
+    /* вылезла еще одна кнопка без контента хз откуда 
+    это код кастрации */
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  &__wrapper {
+    width: 100%;
+    margin-bottom: 52px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+  }
+
+  & &__title {
+    width: 100%;
+    max-width: 25%;
+    height: 60px;
+    margin: 0 -4px 0 0;
+    font-size: 16px;
+    color: rgb(120, 144, 156);
+    background-color: #fff;
+
+    & + .tabs1__title {
+      border-left: 1px solid #d7d7d7;
+    }
+  }
+
+  .active1 {
+    position: relative;
+    font-weight: 500;
+    color: $c-black;
+  }
+
+  .active1::before {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    content: "";
+    background-color: #8bc34a;
+  }
+
+  &__content {
+    padding: 50px;
+  }
+
+  &__item {
+    display: none;
+    max-width: 600px;
+    min-height: 165px;
+    padding: 0 0 60px 30px;
+    column-fill: auto;
+    column-count: 2;
+    column-gap: 25px;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    text-align: left;
+
+    &.active-tab1 {
+      display: block;
+    }
+  }
+
+  &__list-item {
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    &::before {
+      padding-bottom: 1px;
+    }
+  }
+}
+
+.moreitems {
+  margin-bottom: 122px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    padding-left: 25px;
+    margin-bottom: 28px;
+    font-size: 18px;
+    color: rgb(38, 50, 56);
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+  }
+
+  &__item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 92px;
+    margin-bottom: 28px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px 0 rgba(205, 214, 222, 0.75);
+  }
+
+  &__item-img {
+    width: 100px;
+    height: 90px;
+    margin-right: 20px;
+  }
+  &__info {
+    padding-right: 10px;
+    color: $c-black;
+  }
+
+  &__product {
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__categories {
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: $c-green;
+  }
+
+  &__price {
+    bottom: 28px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

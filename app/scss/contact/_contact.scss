@@ -3,6 +3,15 @@
     padding: 32px 39px 0;
   }
 
+  &__map {
+    margin-bottom: 50px;
+
+    iframe {
+      width: 100%;
+      height: 415px;
+    }
+  }
+
   &__info {
     display: flex;
     justify-content: space-between;

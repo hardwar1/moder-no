@@ -1,0 +1,126 @@
+.up {
+  &__body {
+    margin-bottom: 110px;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  &__title {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: $c-black;
+    border-bottom: 1px solid #d7d7d7;
+  }
+
+  &__wrapper {
+    padding: 43px 30px 67px;
+  }
+
+  &__line {
+    position: relative;
+    display: flex;
+    margin: 0 0 30px;
+
+    &.select::after {
+      position: absolute;
+      right: 15px;
+      bottom: 12px;
+      font-family: 'icomoon';
+      font-size: 15px;
+      color: rgb(38, 50, 56);
+      content: '\f0d7';
+    }
+  }
+
+  label {
+    flex-shrink: 0;
+    width: 175px;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $c-black;
+
+    span {
+      margin-left: 4px;
+      font-size: 24px;
+      color: $c-green;
+    }
+  }
+
+  input,
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding-left: 17px;
+    font-size: 15px;
+    color: #000;
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+
+    &::placeholder {
+      color: #707070;
+    }
+  }
+
+  select {
+    appearance: none;
+  }
+
+  &__file {
+    width: 100%;
+    height: 42px;
+    padding: 7px 7px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+  }
+
+  .jq-file {
+    border: 0;
+    box-shadow: none;
+
+    &__name {
+      width: 89px;
+      height: 26px;
+      padding-top: 0;
+      overflow: visible;
+      font-family: $f-base, $f-sub;
+      font-size: 12px;
+      line-height: 24px;
+      color: #444;
+      background-color: #fff;
+      border: 1px solid #dedede;
+      border-radius: 0;
+    }
+
+    &__browse {
+      right: 62px;
+      font-family: "Roboto",sans-serif;
+      font-size: 12px;
+      line-height: 24px;
+      color: #444;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+    }
+  }
+
+  textarea {
+    min-height: 150px;
+    padding-top: 10px;
+  }
+
+  &__submit {
+    min-width: 202px;
+    height: 52px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: $bg-green;
+    border: 0;
+  }
+}
+

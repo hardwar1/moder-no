@@ -199,180 +199,154 @@
           <div class="breadcrumbs__body">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__list-item"><a href="#">Home</a></li>
-              <li class="breadcrumbs__list-item"><a href="#">Withdrawals</a></li>
+              <li class="breadcrumbs__list-item"><a href="#">Upload Product</a></li>
             </ul>
           </div>
         </div>
       </div> <!-- breadcrumbs -->
 
-      <section class="withdrawals">
+      <!-- upload-products up-->
+      <section class="up">
         <div class="container">
-          <div class="withdrawals__body">
-            <div class="withdrawals__col">
-              <h3 class="withdrawals__title">Withdrawals Earnings</h3>
-              <form action="#">
-                <div class="withdrawals__wrapper">
-                  <label class="withdrawals__label">Amount to Withdraw ($2000.00 Maximum)<span>*</span></label>
-                  <input type="text" placeholder="Select Your CardEnter the amount you want to withdraw..." requried>
-                  <label  class="withdrawals__label">Choose your Withdraw Method<span>*</span></label>
-                  <div class="withdrawals__relative">
-                    <select>
-                      <option value="">Select Your Card</option>
-                      <option value="">Select Your Card</option>
-                    </select>
+          <div class="up__body">
+            <h2 class="up__title">Upload Your item</h2>
+            <form action="#">
+              <div class="up__wrapper">
+                <div class="up__line select">
+                  <label>Select Categories<span>*</span></label>
+                  <select>
+                    <option>Select</option>
+                    <option>Select</option>
+                  </select>
+                </div>
+                <div class="up__line">
+                  <label>Product Name<span>*</span></label>
+                  <input type="text" placeholder="Enter your product name here ..." required>
+                </div>
+                <div class="up__line">
+                  <label>Product Description<span>*</span></label>
+                  <textarea placeholder="<h1> Type your text  here </h1/>" required></textarea>
+                </div>
+                <div class="up__line">
+                  <label>Upload Main File<span>*</span></label>
+                  <div class="up__file">
+                    <input class="up-file" type="file" placeholder="No File Choosen">
                   </div>
-                  <label class="withdrawals__label">Your Account Name<span>*</span></label>
-                  <div class="withdrawals__relative">
-                    <select  id="">
-                      <option value="">Select Your Card</option>
-                      <option value="">Select Your Card</option>
-                    </select>
+                </div>
+                <div class="up__line">
+                  <label>Upload Screenshots<span>*</span></label>
+                  <div class="up__file">
+                    <input class="up-file" type="file" placeholder="No File Choosen">
                   </div>
-                  <label  class="withdrawals__label">Confirm Your Password <span>*</span></label>
-                  <input type="password" placeholder="Select Your Card" requried>
-                  <button type="submit" class="withdrawals__submit">Request Withdrawal</button>
-              </form>
-            </div>
-          </div>
-          <div class="withdrawals__col">
-            <h3 class="withdrawals__title">Withdrawal History</h3>
-            <div class="withdrawals__wrapper">
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend pending">Pending</div>
+                </div>
+                <div class="up__line select">
+                  <label>File Included<span>*</span></label>
+                  <select>
+                    <option>Select File Type </option>
+                    <option>Select File Type </option>
+                  </select>
+                </div>
+                <div class="up__line">
+                  <label>File Dimensions<span>*</span></label>
+                  <input type="text" placeholder="Enter the item  dimentionss here ..." required>
+                </div>
+                <div class="up__line">
+                  <label>Item Tags<span>*</span></label>
+                  <input type="text" placeholder="Enter Tag Here" required>
+                </div>
               </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
+              <h2 class="up__title">Set Your Price (US$)</h2>
+              <div class="up__wrapper">
+                <div class="up__line">
+                  <label>Regular License<span>*</span></label>
+                  <input type="text" placeholder="$00.00" required>
+                </div>
+                <div class="up__line">
+                  <label>Extended License <span>*</span></label>
+                  <input type="text" placeholder="$00.00" required>
+                </div>
+                <button type="submit" class="up__submit">Submit</button>
               </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-              <div class="withdrawals__content-item">
-                <div class="withdrawals__content-date">Dec 26th, 2016</div>
-                <div class="withdrawals__content-email">Psdboss@paypal.com</div>
-                <div class="withdrawals__content-cost">$100</div>
-                <div class="withdrawals__content-pend">Paid</div>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
+      </section> <!-- upload-products up-->
+
+      <section class="popap-login off">
+        <div class="popap-login__body">
+          <div class="popap-login__inner">
+            <h4 class="popap-login__title">Login</h4>
+            <button class="popap-login__close icon-close"></button>
+            <form action="#">
+              <div class="popap-login__input-wrapper icon-user">
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="popap-login__input-wrapper icon-lock">
+                <input type="password" placeholder="Password">
+              </div>
+              <div class="popap-login__submit-wrapper">
+                <button class="popap-login__submit" type="submit">Submit</button>
+                <a class="popap-login__creat icon-pencil-square-o" href="#">Creat An Account?</a>
+              </div>
+              <a class="popap-login__lost-pas" href="#">Lost Password?</a>
+            </form>
+          </div>
+        </div>
+      </section> <!-- popap-login -->
     </div>
-    </section>
-
-
-    <section class="popap-login off">
-      <div class="popap-login__body">
-        <div class="popap-login__inner">
-          <h4 class="popap-login__title">Login</h4>
-          <button class="popap-login__close icon-close"></button>
-          <form action="#">
-            <div class="popap-login__input-wrapper icon-user">
-              <input type="text" placeholder="Name">
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer__item">
+            <h5 class="footer__item-title">About Company</h5>
+            <div class="footer__item-text">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
+              disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </div>
+            <address class="footer__address">PO Box 16122 Collins Street West
+              Victoria 8007 Australia</address>
+            <a href="tel:+61383766284" class="footer__tel">+61 3 8376 6284</a>
+          </div> <!-- footer__item -->
+          <div class="footer__item footer__item--menu">
+            <h5 class="footer__item-title">Join Our Community</h5>
+            <ul class="footer__menu">
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Home</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Forums</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Author</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Community Meetups</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Affiliate</a></li>
+            </ul>
+          </div> <!-- footer__item footer__item--menu -->
+          <div class="footer__item footer__item--menu">
+            <h5 class="footer__item-title">Need Help?</h5>
+            <ul class="footer__menu ">
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Help Center</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Author Terms</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Licenses</a></li>
+              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Contact Us</a></li>
+            </ul>
+          </div> <!-- footer__item footer__item--menu -->
+          <div class="footer__item">
+            <h5 class="footer__item-title">Follow Us On</h5>
+            <div class="footer__social">
+              <a class="link link--facebook" href="#"></a>
+              <a class="link link--twitter" href="#"></a>
+              <a class="link link--youtube" href="#"></a>
+              <a class="link link--pinterest" href="#"></a>
+              <a class="link link--linledin" href="#"></a>
             </div>
-            <div class="popap-login__input-wrapper icon-lock">
-              <input type="password" placeholder="Password">
-            </div>
-            <div class="popap-login__submit-wrapper">
-              <button class="popap-login__submit" type="submit">Submit</button>
-              <a class="popap-login__creat icon-pencil-square-o" href="#">Creat An Account?</a>
-            </div>
-            <a class="popap-login__lost-pas" href="#">Lost Password?</a>
-          </form>
-        </div>
-      </div>
-    </section> <!-- popap-login -->
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__body">
-        <div class="footer__item">
-          <h5 class="footer__item-title">About Company</h5>
-          <div class="footer__item-text">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
-            disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </div>
-          <address class="footer__address">PO Box 16122 Collins Street West
-            Victoria 8007 Australia</address>
-          <a href="tel:+61383766284" class="footer__tel">+61 3 8376 6284</a>
+            <h5 class="footer__sign-up">Newsletter Sign Up!</h5>
+            <form action="" class="footer__sign-up-form">
+              <input type="text" class="footer__input" placeholder="E-mail Address">
+              <button class="footer__submit-btn"></button>
+            </form>
+          </div>
         </div> <!-- footer__item -->
-        <div class="footer__item footer__item--menu">
-          <h5 class="footer__item-title">Join Our Community</h5>
-          <ul class="footer__menu">
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Home</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Forums</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Author</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Community Meetups</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Affiliate</a></li>
-          </ul>
-        </div> <!-- footer__item footer__item--menu -->
-        <div class="footer__item footer__item--menu">
-          <h5 class="footer__item-title">Need Help?</h5>
-          <ul class="footer__menu ">
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Help Center</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Author Terms</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Licenses</a></li>
-            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Contact Us</a></li>
-          </ul>
-        </div> <!-- footer__item footer__item--menu -->
-        <div class="footer__item">
-          <h5 class="footer__item-title">Follow Us On</h5>
-          <div class="footer__social">
-            <a class="link link--facebook" href="#"></a>
-            <a class="link link--twitter" href="#"></a>
-            <a class="link link--youtube" href="#"></a>
-            <a class="link link--pinterest" href="#"></a>
-            <a class="link link--linledin" href="#"></a>
-          </div>
-          <h5 class="footer__sign-up">Newsletter Sign Up!</h5>
-          <form action="" class="footer__sign-up-form">
-            <input type="text" class="footer__input" placeholder="E-mail Address">
-            <button class="footer__submit-btn"></button>
-          </form>
+        <div class="footer__copy">
+          <p class="footer__copy-text">© 2017 Foxtar market place. Trademarks and brands are the property of their
+            respective owners.</p>
         </div>
-      </div> <!-- footer__item -->
-      <div class="footer__copy">
-        <p class="footer__copy-text">© 2017 Foxtar market place. Trademarks and brands are the property of their
-          respective owners.</p>
       </div>
-    </div>
-  </footer> <!-- footer -->
+    </footer> <!-- footer -->
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>

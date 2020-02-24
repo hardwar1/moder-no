@@ -143,7 +143,7 @@
   &__profile {
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 0 44px;
   }
 
   &__avatar {
@@ -166,7 +166,7 @@
   }
 
   &__ico-list {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
     li + li {
       margin-left: 8px;
@@ -223,6 +223,10 @@
       font-weight: normal;
       color: #70838d;
     }
+  }
+
+  &--mb0 {
+    margin-bottom: 0;
   }
 }
 

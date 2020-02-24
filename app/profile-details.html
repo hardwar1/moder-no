@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700|Roboto:400,500,700&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700|Roboto:400,500, 500i,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/heart-broken.ico" type="image/x-icon">
@@ -207,7 +207,7 @@
       <div class="pp">
         <div class="container">
           <div class="pp__body">
-            <aside class="pp__aside aside">
+            <aside class="pp__aside aside aside--mb0">
               <div class="aside__item">
                 <h4 class="aside__item-title">About Author</h4>
                 <div class="aside__profile">
@@ -236,8 +236,8 @@
                 <a class="link link--youtube" href="#"></a>
                 <a class="link link--linledin" href="#"></a>
               </div>
-              <button class="aside__btn aside__btn--send">Send Message</button>
-              <button class="aside__btn">Following</button>
+              <a href="#" class="aside__btn aside__btn--send">Send Message</a>
+              <a href="#" class="aside__btn">Following</a>
             </aside>
             <div class="pp__inner">
               <div class="banner__wrapper">
@@ -269,86 +269,132 @@
             </div>
           </div>
 
-          
-      <section class="popap-login off">
-        <div class="popap-login__body">
-          <div class="popap-login__inner">
-            <h4 class="popap-login__title">Login</h4>
-            <button class="popap-login__close icon-close"></button>
-            <form action="#">
-              <div class="popap-login__input-wrapper icon-user">
-                <input type="text" placeholder="Name">
-              </div>
-              <div class="popap-login__input-wrapper icon-lock">
-                <input type="password" placeholder="Password">
-              </div>
-              <div class="popap-login__submit-wrapper">
-                <button class="popap-login__submit" type="submit">Submit</button>
-                <a class="popap-login__creat icon-pencil-square-o" href="#">Creat An Account?</a>
-              </div>
-              <a class="popap-login__lost-pas" href="#">Lost Password?</a>
-            </form>
-          </div>
-        </div>
-      </section> <!-- popap-login -->
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__body">
-          <div class="footer__item">
-            <h5 class="footer__item-title">About Company</h5>
-            <div class="footer__item-text">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
-              disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </div>
-            <address class="footer__address">PO Box 16122 Collins Street West
-              Victoria 8007 Australia</address>
-            <a href="tel:+61383766284" class="footer__tel">+61 3 8376 6284</a>
-          </div> <!-- footer__item -->
-          <div class="footer__item footer__item--menu">
-            <h5 class="footer__item-title">Join Our Community</h5>
-            <ul class="footer__menu">
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Home</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Forums</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Author</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Community Meetups</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Affiliate</a></li>
-            </ul>
-          </div> <!-- footer__item footer__item--menu -->
-          <div class="footer__item footer__item--menu">
-            <h5 class="footer__item-title">Need Help?</h5>
-            <ul class="footer__menu ">
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Help Center</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Author Terms</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Licenses</a></li>
-              <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Contact Us</a></li>
-            </ul>
-          </div> <!-- footer__item footer__item--menu -->
-          <div class="footer__item">
-            <h5 class="footer__item-title">Follow Us On</h5>
-            <div class="footer__social">
-              <a class="link link--facebook" href="#"></a>
-              <a class="link link--twitter" href="#"></a>
-              <a class="link link--youtube" href="#"></a>
-              <a class="link link--pinterest" href="#"></a>
-              <a class="link link--linledin" href="#"></a>
+          <section class="tabs1__wrapper tabs1--profile">
+            <div class="tabs1">
+              <button class="tabs1__title icon-user active1" data-id="1">About Me</button>
+              <button class="tabs1__title icon-suitcase" data-id="2">Products ( 10 )</button>
+              <button class="tabs1__title icon-envelope-o" data-id="3">Message Box</button>
+              <button class="tabs1__title icon-comments-o" data-id="4">Customer Reviews ( 20 )</button>
+              <button class="tabs1__title icon-users" data-id="5">Followers (100 )<button>
             </div>
-            <h5 class="footer__sign-up">Newsletter Sign Up!</h5>
-            <form action="" class="footer__sign-up-form">
-              <input type="text" class="footer__input" placeholder="E-mail Address">
-              <button class="footer__submit-btn"></button>
-            </form>
-          </div>
-        </div> <!-- footer__item -->
-        <div class="footer__copy">
-          <p class="footer__copy-text">© 2017 Foxtar market place. Trademarks and brands are the property of their
-            respective owners.</p>
+              
+            <div class="tabs1__content">
+              <div class="tabs1__item active-tab1" id="1">
+                <h4 class="tabs1__item-title">About Me:</h4>
+                <p class="tabs1__item-text">
+                  Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                </p>
+                <h4 class="tabs1__item-title">Skills: </h4>
+                <div class="tabs1__item-label">Graphic Design <span>80%</span></div>
+                <div class="tabs1__skills"><div class="tabs1__skills-power" style="width: 80%;"></div></div>
+                <div class="tabs1__item-label" >WordPress <span>90%</span></div>
+                <div class="tabs1__skills"><div class="tabs1__skills-power" style="width: 90%;"></div></div>
+                <div class="tabs1__item-label">Joomla <span>70%</span></div>
+                <div class="tabs1__skills"><div class="tabs1__skills-power" style="width: 70%;"></div></div>
+
+
+
+
+              </div>
+              <div class="tabs1__item" id="2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quasi voluptate culpa sunt ipsum eos voluptas velit magni fugit suscipit, quos quo asperiores unde rem perspiciatis magnam dignissimos adipisci hic.
+                Similique nesciunt earum enim accusamus tempora, quis eius inventore ut aspernatur repellat quam suscipit saepe labore laboriosam magnam aliquam. Necessitatibus reiciendis vero assumenda laudantium odio in cumque aperiam quasi libero.
+                Animi, cum veritatis corrupti harum qui expedita excepturi facere nihil repudiandae consequuntur, id molestias ipsa iusto laboriosam incidunt, magnam deserunt enim doloremque quaerat quia. Corrupti ratione architecto laborum non consequuntur?
+                Molestiae possimus deserunt at, quisquam quod temporibus perspiciatis veritatis voluptatibus fuga harum perferendis maxime architecto illo, provident laborum. Dolor eaque debitis vitae voluptates error dolorum consequatur dignissimos atque. Quisquam, animi.
+                Corporis sequi cumque quam quos, quis adipisci aliquam totam! Numquam possimus provident accusamus eos. Distinctio in error, asperiores doloremque vero possimus deserunt aspernatur sint tenetur hic expedita voluptate nam inventore?
+                Similique error fuga, ipsum eum aliquid neque facere aliquam ab dolorum nemo eveniet nam necessitatibus. At debitis laudantium molestias vero ad aperiam eaque nostrum cumque, molestiae culpa commodi unde nesciunt.
+
+              </div>
+              <div class="tabs1__item" id="3">
+              </div>
+              <div class="tabs1__item" id="4">
+              </div>
+              <div class="tabs1__item" id="5">
+              </div>
+            </div>
+          </section>
+
+          <section class="popap-login off">
+            <div class="popap-login__body">
+              <div class="popap-login__inner">
+                <h4 class="popap-login__title">Login</h4>
+                <button class="popap-login__close icon-close"></button>
+                <form action="#">
+                  <div class="popap-login__input-wrapper icon-user">
+                    <input type="text" placeholder="Name">
+                  </div>
+                  <div class="popap-login__input-wrapper icon-lock">
+                    <input type="password" placeholder="Password">
+                  </div>
+                  <div class="popap-login__submit-wrapper">
+                    <button class="popap-login__submit" type="submit">Submit</button>
+                    <a class="popap-login__creat icon-pencil-square-o" href="#">Creat An Account?</a>
+                  </div>
+                  <a class="popap-login__lost-pas" href="#">Lost Password?</a>
+                </form>
+              </div>
+            </div>
+          </section> <!-- popap-login -->
         </div>
       </div>
-    </footer> <!-- footer -->
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.min.js"></script>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__body">
+            <div class="footer__item">
+              <h5 class="footer__item-title">About Company</h5>
+              <div class="footer__item-text">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim
+                digniSuspen
+                disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </div>
+              <address class="footer__address">PO Box 16122 Collins Street West
+                Victoria 8007 Australia</address>
+              <a href="tel:+61383766284" class="footer__tel">+61 3 8376 6284</a>
+            </div> <!-- footer__item -->
+            <div class="footer__item footer__item--menu">
+              <h5 class="footer__item-title">Join Our Community</h5>
+              <ul class="footer__menu">
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Home</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Forums</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Author</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Community Meetups</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Affiliate</a></li>
+              </ul>
+            </div> <!-- footer__item footer__item--menu -->
+            <div class="footer__item footer__item--menu">
+              <h5 class="footer__item-title">Need Help?</h5>
+              <ul class="footer__menu ">
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Help Center</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Author Terms</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Licenses</a></li>
+                <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Contact Us</a></li>
+              </ul>
+            </div> <!-- footer__item footer__item--menu -->
+            <div class="footer__item">
+              <h5 class="footer__item-title">Follow Us On</h5>
+              <div class="footer__social">
+                <a class="link link--facebook" href="#"></a>
+                <a class="link link--twitter" href="#"></a>
+                <a class="link link--youtube" href="#"></a>
+                <a class="link link--pinterest" href="#"></a>
+                <a class="link link--linledin" href="#"></a>
+              </div>
+              <h5 class="footer__sign-up">Newsletter Sign Up!</h5>
+              <form action="" class="footer__sign-up-form">
+                <input type="text" class="footer__input" placeholder="E-mail Address">
+                <button class="footer__submit-btn"></button>
+              </form>
+            </div>
+          </div> <!-- footer__item -->
+          <div class="footer__copy">
+            <p class="footer__copy-text">© 2017 Foxtar market place. Trademarks and brands are the property of their
+              respective owners.</p>
+          </div>
+        </div>
+      </footer> <!-- footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>

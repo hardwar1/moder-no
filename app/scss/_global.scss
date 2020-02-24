@@ -163,16 +163,16 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.ibg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  visibility: hidden;
-  opacity: 0;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
 } /* ibg */
 
 .title {
@@ -204,6 +204,8 @@ button {
   &__list {
     li {
       display: inline-block;
+      background-color: #fff;
+      box-shadow: 0 1px 2px 0 rgba(205, 214, 222, 0.75);
     }
 
     li + li {
@@ -222,9 +224,9 @@ button {
     color: #37474f;
     border-bottom: 1px solid #d9e0e3;
   }
-}
 
-.pagination .active {
-  color: #fff;
-  background-color: $bg-red;
+  .active {
+    color: #fff;
+    background-color: $bg-red;
+  }
 } /* pagination */

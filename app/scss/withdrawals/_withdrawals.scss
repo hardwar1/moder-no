@@ -1,0 +1,126 @@
+.withdrawals {
+  &__body {
+    display: flex;
+    margin-bottom: 105px;
+    margin-left: -30px;
+    text-align: left;
+  }
+
+  &__col {
+    width: 100%;
+    max-width: 50%;
+    margin-left: 30px;
+
+  }
+
+  &__title {
+    padding: 18px 30px 22px;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(38, 50, 56);
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-bottom: 0;
+  }
+
+  &__wrapper {
+    padding: 30px 30px 50px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+  }
+
+  &__label {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $c-black;
+
+    span {
+      margin-left: 4px;
+      font-size: 24px;
+      color: $c-green;
+    }
+  }
+
+  input,
+  select {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding-left: 17px;
+    margin: 0 0 30px;
+    font-size: 15px;
+    color: #000;
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+
+    &::placeholder {
+      color: #707070;
+    }
+  }
+
+  &__relative {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      font-family: 'icomoon';
+      font-size: 15px;
+      color: rgb(38, 50, 56);
+      content: '\f0d7';
+      transform: translateY(-50%);
+    }
+  }
+
+  select {
+    margin: 0 0 30px;
+    appearance: none;
+  }
+
+  &__submit {
+    min-width: 202px;
+    height: 52px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: $bg-green;
+    border: 0;
+  }
+
+  &__content-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 42px;
+    padding: 0 15px;
+    font-size: 13px;
+    color: rgb(38, 50, 56);
+
+    &:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+  }
+
+  &__content-date {
+    font-weight: 500;
+  }
+
+  &__content-cost {
+    font-weight: 700;
+  }
+
+  &__content-pend {
+    width: 54px;
+    font-weight: 500;
+    color: $bg-green;
+
+    &.pending {
+      color: rgb(68, 68, 68);
+    }
+  }
+}

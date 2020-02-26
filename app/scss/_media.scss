@@ -15,6 +15,10 @@
     display: block;
   }
 
+  .pp__inner {
+    max-width: none;
+  }
+
   .pd__wrapper {
     display: block;
   }
@@ -42,6 +46,13 @@
       width: 100%;
       max-width: 500px;
       margin: 0 auto;
+    }
+  }
+  .aside {
+    margin-bottom: 40px;
+
+    &__top-seller {
+      display: none;
     }
   }
 }
@@ -251,9 +262,16 @@
   .moreitems {
     margin-bottom: 40px;
   }
+  .sort {
+    .icon-th-list {
+      display: none;
+    }
+
+  }
 }
 
 @media (max-width: 620px) {
+
   .moreitems {
     &__item {
       width: 100%;

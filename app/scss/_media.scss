@@ -74,6 +74,11 @@
       margin: 0 auto;
     }
   }
+
+  .tabs1--profile .tabs1__content {
+    max-width: none;
+  }
+
   .aside {
     margin-bottom: 40px;
 
@@ -320,6 +325,24 @@
       margin-bottom: 10px;
     }
   }
+
+  .up {
+    &__body {
+      margin-bottom: 30px;
+    }
+    &__line {
+      display: block;
+  
+      label {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+    }
+    &__wrapper {
+      padding: 30px 15px 30px;
+    }
+  }
+
 }
 
 @media (max-width: 620px) {

@@ -23,6 +23,19 @@
     display: block;
   }
 
+  .withdrawals {
+    &__body {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    &__col {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
   .aside {
     margin-right: auto;
     margin-left: auto;
@@ -271,7 +284,16 @@
 }
 
 @media (max-width: 620px) {
-
+  .withdrawals__wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .withdrawals__wrapper.tab {
+    overflow-x: scroll;
+  }
+  .withdrawals__content-item {
+    width: 580px;
+  }
   .moreitems {
     &__item {
       width: 100%;

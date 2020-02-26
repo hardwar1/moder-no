@@ -28,10 +28,30 @@ $(function () {
   });
 
   $('.trend__slider').slick({
+    dots: true,
+    arrows: false,
     slidesToShow: 4,
     slidesToScroll: 4,
-    dots: true,
-    arrows: false
+    responsive: [
+      {
+        breakpoint: 1902,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+      }},
+      {
+        breakpoint: 1441,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+      }},
+      {
+        breakpoint: 801,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+      }},
+    ]
   });
 
   $(".aside__range").ionRangeSlider({

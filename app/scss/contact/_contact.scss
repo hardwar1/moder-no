@@ -1,10 +1,12 @@
 .contact {
   &__content {
-    padding: 32px 39px 0;
+    padding: 0 39px;
   }
 
   &__map {
-    margin-bottom: 50px;
+    padding: 30px;
+    margin: 0 0  20px;
+    background-color: #fff;
 
     iframe {
       width: 100%;
@@ -18,8 +20,10 @@
   }
 
   &__contacts {
+    flex-shrink: 0;
     width: 270px;
     padding-left: 40px;
+    margin-right: 15px;
   }
 
   &__item {
@@ -34,6 +38,8 @@
     font-size: 20px;
     font-weight: 500;
     color: $c-black;
+    margin-block-start: 0;
+    margin-block-end: 0;
 
     &::before {
       position: absolute;
@@ -73,6 +79,7 @@
       max-width: 350px;
       height: 42px;
       padding-left: 18px;
+      margin-bottom: 30px;
       font-size: 15px;
       background-color: #f1f4f5;
       border: 0;
@@ -105,7 +112,7 @@
   &__input-wrapper {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    
   }
 
   &__form-title {

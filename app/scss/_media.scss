@@ -139,7 +139,7 @@
   }
   .products {
     padding: 50px 15px 50px;
-}
+  }
 
   .author {
     &__block {
@@ -251,6 +251,19 @@
     &__notification {
       right: -64px;
     }
+  }
+  .popap-login__submit-wrapper {
+    display: block;
+  }
+
+  .popap-login__creat,
+  .popap-login__submit {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 15px;
+    text-align: center;
   }
 }
 

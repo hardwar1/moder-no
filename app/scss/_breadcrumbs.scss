@@ -1,0 +1,41 @@
+.breadcrumbs {
+  text-align: left;
+
+  &__body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 103px;
+    font-size: 15px;
+  }
+
+  &__list {
+    width: 100%;
+
+    &-item {
+      position: relative;
+      display: inline-block;
+      color: #b0bec5;
+
+      &:last-child {
+        color: $c-black;
+      }
+    }
+
+    li + li {
+      margin-left: 20px;
+
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: -14px;
+        width: 5px;
+        height: 1px;
+        content: "";
+        background-color: $bg-green;
+        border-left: 1px solid #d1e5bc;
+        transform: translateY(-1px);
+      }
+    }
+  }
+}

@@ -1,20 +1,1022 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/heart-broken.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:700|Open+Sans:600|Roboto:400,500,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/heart-broken.ico" type="image/x-icon">
 </head>
+
 <body>
-    <h1>Hello world</h1>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__body">
+          <img src="images/header-logo.png" alt="logo" class="header-top__logo">
+          <div class="header-top__text">
+            <a href="#"><span class="header-top__text-red">Need help?</span></a>
+            Talk to an expert:
+            <a href="tel:  +61383766284" class="header-top__tel"> +61 3 8376 6284</a>
+          </div>
+          <div class="header-top__log-menu log-menu">
+            <div class="log-menu__item logout">
+              <a href="#" class="log-menu__link icon-bell-o">
+                <div class="log-menu__value log-menu__value--y">3</div>
+              </a>
+              <ul class="log-menu__notification drop-down">
+                <li class="drop-down__item">
+                  <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="drop-down__avatar"></a>
+                  <div class="drop-down__info">
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__date">01 Dec, 2016</div>
+                  </div>
+                </li>
+                <li class="drop-down__item writted">
+                  <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="drop-down__avatar"></a>
+                  <div class="drop-down__info">
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__date">26 Nov, 2016</div>
+                  </div>
+                </li>
+                <li class="drop-down__item writted">
+                  <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="drop-down__avatar"></a>
+                  <div class="drop-down__info">
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__date">26 Nov, 2016</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="log-menu__item logout">
+              <a href="#" class="log-menu__link icon-envelope-o">
+                <div class="log-menu__value log-menu__value--r">5</div>
+              </a>
+              <ul class="log-menu__message drop-down drop-down--message">
+                <li class="drop-down__item">
+                  <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="drop-down__avatar"></a>
+                  <div class="drop-down__info">
+                    <div class="drop-down__name">Kazi Fahim</div>
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__date">01 Dec, 2016</div>
+                  </div>
+                </li>
+                <li class="drop-down__item writted">
+                  <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="drop-down__avatar"></a>
+                  <div class="drop-down__info">
+                    <div class="drop-down__name">Richi Lenal</div>
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__date">26 Nov, 2016</div>
+                  </div>
+                </li>
+                <li class="drop-down__item writted answered">
+                  <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="drop-down__avatar"></a>
+                  <div class="drop-down__info">
+                    <div class="drop-down__name">PsdBosS</div>
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__date">26 Nov, 2016</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="log-menu__item">
+              <a href="#" class="log-menu__link icon-shopping-cart">
+                <div class="log-menu__value log-menu__value--g">8</div>
+              </a>
+              <ul class="log-menu__bascet drop-down drop-down--bascet">
+                <li class="drop-down__item">
+                  <a href="#"><img src="images/headerprofile.jpg" alt="product" class="drop-down__product"></a>
+                  <div class="drop-down__info">
+                    <div class="drop-down__product-name">Apple Device </div>
+                    <a href="#" class="drop-down__link">Need WP Help!</a>
+                    <div class="drop-down__price">$59</div>
+                  </div>
+                </li>
+                <li class="drop-down__item">
+                  <a href="#"><img src="images/headerprofile.jpg" alt="product" class="drop-down__product"></a>
+                  <div class="drop-down__info">
+                    <div class="drop-down__product-name">Apple Device</div>
+                    <a href="#" class="drop-down__link">wodpress</a>
+                    <div class="drop-down__price">$59</div>
+                  </div>
+                </li>
+                <li class="drop-down__item drop-down__item--total">
+                  <div class="drop-down__bascet-total">
+                    <div>Total</div>
+                    <div>$118</div>
+                  </div>
+                  <div class="div">
+                    <button class="drop-down__btn">Go to Cart</button>
+                    <button class="drop-down__btn drop-down__btn--checkout">Go to Checkout</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-top__profile profile logout">
+            <button class="profile__btn-body">
+              <img class="profile__avatar" src="images/home/content/item-avatar.jpg" alt="avatar">
+              <div class="profile__name-wrapper">
+                <div class="profile__name">Mike Hussy
+                  <div class="profile__cash">$171.00</div>
+                </div>
+              </div>
+            </button>
+            <ul class="profile__list">
+              <li class="profile__link menu-arrow"><a href="#">Profile Page</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Portfolio</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Account Setting</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Downloads</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Wishlist</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Upload Item</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Statement</a></li>
+              <li class="profile__link menu-arrow"><a href="#">Withdraws</a></li>
+            </ul>
+          </div>
+          <div class="header-top__btn-pos">
+            <button class="header-top__btn header-top__log">Login</button>
+            <button class="header-top__btn header-top__reg">Register</button>
+            <button class="header-top__btn header-top__logout logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- header-top -->
+    <div class="header-menu">
+      <div class="container">
+        <div class="header-menu__body">
+          <button class="burger">
+            <div class="burger__inner">
+              <span class="burger__line2"></span>
+            </div>
+          </button>
+          <nav>
+            <ul class="header-menu__wrapper menu">
+              <li class="menu__link"><a href="#" class="menu__a">Home</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">About</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">WordPress</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">Joomla</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">PSD</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">Plugins</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">Components</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">Pages</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">Contact</a></li>
+              <li class="menu__link"><a href="#" class="menu__a">Help</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div> <!-- header-menu -->
+  </header> <!-- header -->
 
+  <section class="search" style="background-image: url('images/home/search-bg.jpg');">
+    <div class="container">
+      <div class="search__inner">
+        <h1 class="search__title">Welcome To Foxtar Market Place!</h1>
+        <div class="search__text">Premium WordPress Themes, Web Templates and Many More ...</div>
+        <form class="search__form" action="#">
+          <input class="search__input" type="search" placeholder="Search Your Keywords . . .">
+          <button class="search__btn" type="submit">
+            <img src="images/home/search.png" alt="search">
+          </button>
+        </form>
+      </div>
+    </div>
+  </section> <!-- search -->
 
+  <section class="products">
+    <h2 class="products__title title">Let’s Check Out Our Newest Release Prodcuts</h2>
+    <ul class="products__menu">
+      <li><button class="products__menu-filter" data-filter="all">All</button></li>
+      <li><button class="products__menu-filter" data-filter=".category-wordpress">WordPress</button></li>
+      <li><button class="products__menu-filter" data-filter=".category-joomla">Joomla</button></li>
+      <li><button class="products__menu-filter" data-filter=".category-plugins">Plugins</button></li>
+      <li><button class="products__menu-filter" data-filter=".category-component">Component</button></li>
+      <li><button class="products__menu-filter" data-filter=".category-psd">PSD</button></li>
+    </ul>
+    <div class="products__body">
+      <div class="products__item item mix category-wordpress" data-order="1">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-joomla" data-order="2">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-plugins" data-order="3">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-component category-popular" data-order="4">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-psd" data-order="5">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-wordpress category-popular" data-order="6">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-joomla new" data-order="7">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="products__item item mix category-joomla new" data-order="8">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+    </div>
+    <div class="products__wrapper">
+      <button type="button" class="products__menu-filter products__menu-filter--bottom" data-filter=".new">All New
+        Items</button>
+      <button type="button" class="products__menu-filter products__menu-filter--bottom"
+        data-filter=".category-popular">Popular Items</button>
+    </div>
+  </section>
+
+  <section class="trend">
+    <h2 class="trend__title title">This Week Trending Products</h2>
+    <div class="trend__slider">
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+
+      <div class="item">
+        <div class="item__body">
+          <a class="item__img ibg">
+            <!-- ibg класс удаляет картинку имг и вставляет её же бекграундом -->
+            <img src="images/home/content/item-img.jpg" alt="product image">
+          </a>
+          <div class="item__cost-wrapper">
+            <div class="item__description">
+              <h4 class="item__title">Responsive Mobile APP</h4>
+              <div class="item__category"><a href="#"> Site Template</a></div>
+            </div>
+            <div class="item__cost">$19</div>
+          </div>
+          <div class="item__seller">
+            <a href="#"><img src="images/home/content/item-avatar.jpg" alt="avatar" class="item__avatar"></a>
+            <a class="item__seller-name" href="#">
+              Radiustheme
+            </a>
+            <div class="item__rating">
+              <div class="rate-star"></div>
+              <div class="rate-number">( <span> 05 </span> )</div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- item -->
+    </div>
+  </section> <!-- trend -->
+
+  <section class="advantages">
+    <div class="container">
+      <h3 class="advantages__title title">Why You Choose Foxtar Market Place?</h3>
+      <div class="advantages__wrapper">
+        <div class="advantages__item">
+          <a class="advantages__link" href="#">
+            <div class="advantages__img">
+              <svg class="advantages__svg svg1" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                height="512" viewBox="0 0 512 512">
+                <title></title>
+                <g id="icomoon-ignore">
+                </g>
+                <path
+                  d="M296 224h-8v-96c0-52.935-43.065-96-96-96h-64c-52.935 0-96 43.065-96 96v96h-8c-13.2 0-24 10.8-24 24v240c0 13.2 10.8 24 24 24h272c13.2 0 24-10.8 24-24v-240c0-13.2-10.8-24-24-24zM96 128c0-17.645 14.355-32 32-32h64c17.645 0 32 14.355 32 32v96h-128v-96z">
+                </path>
+              </svg>
+            </div>
+            <div class="advantages__item-title">Easily Buy & Sell </div>
+          </a>
+          <p class="advantages__item-text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem
+            Ipsum has been the industry's standaum.</p>
+        </div> <!-- advantages__item -->
+        <div class="advantages__item">
+          <a class="advantages__link" href="#">
+            <div class="advantages__img">
+              <svg class="advantages__svg svg2" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                height="512" viewBox="0 0 512 512">
+                <title></title>
+                <g id="icomoon-ignore">
+                </g>
+                <path
+                  d="M385.758 160c9.063-6.44 17.756-13.608 25.722-21.574 16.701-16.701 27.873-37.25 31.456-57.861 3.929-22.593-1.836-43.57-15.815-57.55-11.15-11.149-26.255-17.043-43.682-17.043-24.816 0-50.961 11.912-71.73 32.681-33.238 33.238-52.613 79.119-63.038 111.861-7.72-32.901-23.103-77.322-53.009-107.229-16.047-16.046-36.557-24.285-55.923-24.285-15.827 0-30.89 5.502-42.13 16.743-24.993 24.994-21.616 68.893 7.543 98.052 10.396 10.396 22.549 19.031 35.36 26.206h-108.512v128h32v224h384v-224.001h32v-128h-94.242zM337.163 64.109c13.862-13.862 31.161-22.137 46.275-22.137 5.35 0 12.854 1.127 18.225 6.499 13.015 13.014 5.706 43.154-15.64 64.499-21.973 21.973-51.53 37.084-77.216 47.030h-25.336c9.284-28.774 26.029-68.228 53.692-95.891zM116.967 80.445c-0.351-4.56-0.025-13.124 6.098-19.247 5.122-5.122 11.894-6.198 16.674-6.198v0c10.629 0 21.734 5.008 30.466 13.74 16.936 16.936 30.883 43.886 40.334 77.938 0.255 0.92 0.504 1.835 0.748 2.743-0.908-0.243-1.823-0.492-2.743-0.748-34.052-9.452-61.001-23.399-77.937-40.335-7.914-7.913-12.885-18.080-13.64-27.893zM224 480h-128v-208h128v208zM224 256h-160v-64h160v64zM416 480h-128v-208h128v208zM448 256h-160v-64h160v64z">
+                </path>
+              </svg>
+
+            </div>
+            <div class="advantages__item-title">Quality Products</div>
+          </a>
+          <p class="advantages__item-text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem
+            Ipsum has been the industry's standaum.</p>
+        </div> <!-- advantages__item -->
+        <div class="advantages__item">
+          <a class="advantages__link" href="#">
+            <div class="advantages__img">
+              <svg class="advantages__svg svg3" version="1.1" xmlns="http://www.w3.org/2000/svg" width="448"
+                height="448" viewBox="0 0 448 448">
+                <title></title>
+                <g id="icomoon-ignore">
+                </g>
+                <path
+                  d="M416 149c0-70.25-47.5-85-87.5-85-37.25 0-79.25 40.25-92.25 55.75-6 7.25-18.5 7.25-24.5 0-13-15.5-55-55.75-92.25-55.75-40 0-87.5 14.75-87.5 85 0 45.75 46.25 88.25 46.75 88.75l145.25 140 145-139.75c0.75-0.75 47-43.25 47-89zM448 149c0 60-55 110.25-57.25 112.5l-155.75 150c-3 3-7 4.5-11 4.5s-8-1.5-11-4.5l-156-150.5c-2-1.75-57-52-57-112 0-73.25 44.75-117 119.5-117 43.75 0 84.75 34.5 104.5 54 19.75-19.5 60.75-54 104.5-54 74.75 0 119.5 43.75 119.5 117z">
+                </path>
+              </svg>
+            </div>
+            <div class="advantages__item-title">100% Secure Payment</div>
+          </a>
+          <p class="advantages__item-text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem
+            Ipsum has been the industry's standaum.</p>
+        </div> <!-- advantages__item -->
+      </div>
+    </div>
+  </section> <!-- advantages -->
+
+  <section class="author" style="background-image: url(images/home/content/author-bg.jpg);">
+    <div class="author__block">
+      <div class="author__text">
+        Over <span>20,000</span> Author
+        Are Involved Here!
+      </div>
+      <button class="author__btn">Become A Author</button>
+    </div>
+  </section> <!-- author -->
+
+  <section class="tutorials">
+    <div class="container-fluid">
+      <div class="tutorials__title title">Free Monthly Tutorials To Help You With Your Project </div>
+      <div class="tutorials__body">
+        <div class="tutorials__item">
+          <img src="images/home/content/tutor1.jpg" alt="" class="tutorials__img ibg">
+          <div class="tutorials__name"><span>Web Design Tutorials</span></div>
+        </div>
+        <div class="tutorials__item">
+          <img src="images/home/content/tutor2.jpg" alt="" class="tutorials__img ibg">
+          <div class="tutorials__name"><span>WordPress Tutorials</span></div>
+        </div>
+        <div class="tutorials__item">
+          <img src="images/home/content/tutor3.jpg" alt="" class="tutorials__img ibg">
+          <div class="tutorials__name"><span>HTML & CSS Tutorials</span></div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- tutorials -->
+
+  <section class="popap-login off">
+    <div class="popap-login__body">
+      <div class="popap-login__inner">
+        <h4 class="popap-login__title">Login</h4>
+        <button class="popap-login__close icon-close"></button>
+        <form action="#">
+          <div class="popap-login__input-wrapper icon-user">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="popap-login__input-wrapper icon-lock">
+            <input type="password" placeholder="Password">
+          </div>
+          <div class="popap-login__submit-wrapper">
+            <button class="popap-login__submit" type="submit">Submit</button>
+            <a class="popap-login__creat icon-pencil-square-o" href="#">Creat An Account?</a>
+          </div>
+          <a class="popap-login__lost-pas" href="#">Lost Password?</a>
+        </form>
+      </div>
+    </div>
+  </section> <!-- popap-login -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__body">
+        <div class="footer__item">
+          <h5 class="footer__item-title">About Company</h5>
+          <div class="footer__item-text">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
+            disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </div>
+          <address class="footer__address">PO Box 16122 Collins Street West
+            Victoria 8007 Australia</address>
+          <a href="tel:+61383766284" class="footer__tel">+61 3 8376 6284</a>
+        </div> <!-- footer__item -->
+        <div class="footer__item footer__item--menu">
+          <h5 class="footer__item-title">Join Our Community</h5>
+          <ul class="footer__menu">
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Home</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Forums</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Author</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Community Meetups</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Become an Affiliate</a></li>
+          </ul>
+        </div> <!-- footer__item footer__item--menu -->
+        <div class="footer__item footer__item--menu">
+          <h5 class="footer__item-title">Need Help?</h5>
+          <ul class="footer__menu ">
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Help Center</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Market Terms</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Author Terms</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Foxtar Licenses</a></li>
+            <li class="footer__menu-item menu-arrow"><a href="#" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div> <!-- footer__item footer__item--menu -->
+        <div class="footer__item">
+          <h5 class="footer__item-title">Follow Us On</h5>
+          <div class="footer__social">
+            <a class="link link--facebook" href="#"></a>
+            <a class="link link--twitter" href="#"></a>
+            <a class="link link--youtube" href="#"></a>
+            <a class="link link--pinterest" href="#"></a>
+            <a class="link link--linledin" href="#"></a>
+          </div>
+          <h5 class="footer__sign-up">Newsletter Sign Up!</h5>
+          <form action="" class="footer__sign-up-form">
+            <input type="text" class="footer__input" placeholder="E-mail Address">
+            <button class="footer__submit-btn"></button>
+          </form>
+        </div>
+      </div> <!-- footer__item -->
+      <div class="footer__copy">
+        <p class="footer__copy-text">© 2017 Foxtar market place. Trademarks and brands are the property of their
+          respective owners.</p>
+      </div>
+    </div>
+  </footer> <!-- footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
+
 </html>

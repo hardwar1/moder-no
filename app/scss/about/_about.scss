@@ -1,0 +1,37 @@
+.about {
+  &__body {
+    margin-bottom: 144px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+  }
+
+  &__title {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: $c-black;
+    border-bottom: 1px solid #dfdfdf;
+  }
+
+  &__content {
+    padding: 43px 48px;
+  }
+
+  &__item {
+    margin-bottom: 50px;
+  }
+
+  &__item-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: $c-black;
+  }
+
+  &__item-text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #707070;
+  }
+}

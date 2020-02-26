@@ -1,5 +1,52 @@
-@import "libs";
-@import "vars";
-@import "fonts";
-@import "global";
-@import "media";
+/* почему такой инклуд?
+потому что автопрефиксер галпа петух недоделанный не префиксит код обычным import */
+
+/* общие блоки */
+@@include('./_libs.scss');
+@@include('./_vars.scss');
+@@include('./_fonts.scss');
+@@include('./_global.scss');
+@@include('./_item.scss');
+@@include('./_tabs1.scss');
+
+
+/* куски страниц sections */
+/* куски header и popap*/
+@@include('./popap/_drop-down.scss');
+@@include('./popap/_popap-login.scss');
+@@include('./_header.scss');
+
+/* куски страницы home */
+@@include('./home/_search.scss');
+@@include('./home/_products.scss');
+@@include('./home/_trend.scss');
+@@include('./home/_advantages.scss');
+@@include('./home/_author.scss');
+@@include('./home/_tutorials.scss');
+/* footer */
+@@include('./_footer.scss');
+
+/* куски страницы product-page */
+@@include('./_breadcrumbs.scss');
+@@include('./product-page/_pp.scss');
+@@include('./product-page/_aside.scss');
+@@include('./product-page/_sort.scss');
+
+/* куски страницы 404.html */
+@@include('./404/_page404.scss');
+/* куски страницы product-details pd*/
+@@include('./product-details/_pd.scss');
+/* куски страницы about*/
+@@include('./about/_about.scss');
+/* куски страницы contact*/
+@@include('./contact/_contact.scss');
+/* куски страницы profile-details pd*/
+@@include('./profile-details/_profile-details.scss');
+/* куски страницы withdrawals*/
+@@include('./withdrawals/_withdrawals.scss');
+/* куски страницы upload-products up*/
+@@include('./upload-products/_upload-products.scss');
+
+
+/* адаптив */
+@@include('./_media.scss');

@@ -1,15 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
   min-width: 320px;
-  font-family: $base-fonts, $sub-fonts;
-  font-size: 16px;
+  font-family: $f-base, $f-sub;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
+  background-color: #f4f6f5;
 }
 
 ul,
@@ -23,10 +33,13 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   padding: 0;
   margin: 0;
+  font-family: inherit;
   font-weight: inherit;
+  color: inherit;
 }
 
 a,
@@ -36,12 +49,48 @@ button {
   color: inherit;
   text-decoration: none;
   text-transform: inherit;
+  cursor: pointer;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 30px;
+
+  @media (max-width: 720px) {
+    padding: 0 15px;
+  }
+}
+
+.logout {
+  display: none !important;
+}
+
+.logged {
+  display: block !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+
+  &--bg {
+    background-color: #f4f6f5;
+  }
+}
+
+.footer {
+  flex: 0 0 auto;
 }
 
 /* burger */
@@ -114,14 +163,70 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+} /* ibg */
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+  color: $c-black;
 }
 
-.ibg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  visibility: hidden;
-  opacity: 0;
-} /* ibg */
+.menu-arrow {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-family: "icomoon";
+    font-size: 18px;
+    color: $c-green;
+    content: "\f105";
+    transform: translateY(-50%);
+  }
+}
+
+/* pagination */
+.pagination {
+  margin-bottom: 109px;
+
+  &__list {
+    li {
+      display: inline-block;
+      background-color: #fff;
+      box-shadow: 0 1px 2px 0 rgba(205, 214, 222, 0.75);
+    }
+
+    li + li {
+      margin-left: 8px;
+    }
+  }
+
+  a,
+  span {
+    display: inline-block;
+    width: 43px;
+    height: 39px;
+    padding: 11px 3px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #37474f;
+    border-bottom: 1px solid #d9e0e3;
+  }
+
+  .active {
+    color: #fff;
+    background-color: $bg-red;
+  }
+} /* pagination */

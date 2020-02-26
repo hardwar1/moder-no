@@ -311,6 +311,15 @@
       display: none;
     }
   }
+
+  .tabs1__form-line {
+    display: block;
+
+    label {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 @media (max-width: 620px) {

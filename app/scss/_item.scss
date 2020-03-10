@@ -3,6 +3,10 @@
   margin: 32px 0 32px 30px;
   color: $c-blue;
 
+  .flash__block {
+    display: none;
+  }
+
   &:hover {
     background-color: #fff;
     box-shadow: 0 16px 20px 0 rgba(216, 216, 216, 0.75);
@@ -292,3 +296,28 @@
     }
   }
 } /* item */
+
+.flash {
+  position: relative;
+
+  .flash__block {
+    display: block;
+  }
+
+  &__block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 35px solid transparent;
+    border-left: 35px solid #7fba32;
+    border-top: 35px solid #7fba32;
+  }
+
+  &__position {
+    position: absolute;
+    top: -21px;
+    left: -21px;
+    font-size: 18px;
+    color: #fff;
+  }
+}
